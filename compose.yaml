@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: nutrifit
+      POSTGRES_USER: nutrifit
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in your shell or root .env}
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - nutrifit_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nutrifit -d nutrifit"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+volumes:
+  nutrifit_pg:

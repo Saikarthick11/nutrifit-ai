@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {summarize,shiftDate,dateInZone,weekSeries} from '../src/data.ts';
+const meal={id:'1',date:'2026-11-14',extraction:{intent:'meal_log',foods:[{name:'toast'},{name:'egg'}],workouts:[]},nutrition:{'0':{nutrients:{kcal:100,protein_g:0,carbs_g:20,fat_g:null}},'1':{nutrients:{kcal:70,protein_g:6,carbs_g:null,fat_g:5}}}};
+test('totals distinguish zero from unknown values',()=>{const s=summarize([meal]);assert.equal(s.totals.kcal,170);assert.equal(s.known.protein_g,2);assert.equal(s.missing.carbs_g,1);assert.equal(s.missing.fat_g,1);assert.equal(s.meals,1);});
+test('missing nutrition is not invented',()=>{const s=summarize([{...meal,nutrition:{}}]);assert.equal(s.known.kcal,0);assert.equal(s.missing.kcal,2);});
+test('workouts count activities and minutes separately',()=>{const s=summarize([{id:'2',date:meal.date,extraction:{intent:'workout_log',foods:[],workouts:[{name:'walk',duration_minutes:30},{name:'run',duration_minutes:15}]},nutrition:{}}]);assert.equal(s.workouts,2);assert.equal(s.minutes,45);assert.equal(s.meals,0);});
+test('date shifts handle leap days and year changes',()=>{assert.equal(shiftDate('2024-03-01',-1),'2024-02-29');assert.equal(shiftDate('2026-01-01',-1),'2025-12-31');});
+test('timezone controls today near midnight',()=>assert.equal(dateInZone('America/New_York',new Date('2026-11-14T02:00:00Z')),'2026-11-13'));
+test('seven day chart includes only dates inside range',()=>{const days=weekSeries([meal,{...meal,date:'2026-11-07'}],'2026-11-14');assert.equal(days.length,7);assert.equal(days[0].day,'2026-11-08');assert.equal(days[6].totals.kcal,170);assert.equal(days.reduce((n,d)=>n+d.meals,0),1);});

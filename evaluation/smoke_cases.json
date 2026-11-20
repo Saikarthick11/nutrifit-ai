@@ -1,0 +1,217 @@
+[
+  {
+    "id": "complete_toast",
+    "text": "I ate 2 slices of toast today",
+    "reference_date": "2026-11-12",
+    "answers": {},
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "toast",
+          "quantity": 2,
+          "unit": "slices"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-12",
+      "end_date": null
+    }
+  },
+  {
+    "id": "missing_eggs",
+    "text": "I ate 2 slices of toast and eggs today",
+    "reference_date": "2026-11-12",
+    "answers": {
+      "foods.1.quantity": "2"
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "toast",
+          "quantity": 2,
+          "unit": "slices"
+        },
+        {
+          "name": "eggs",
+          "quantity": 2,
+          "unit": "count"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-12",
+      "end_date": null
+    }
+  },
+  {
+    "id": "missing_date",
+    "text": "I ate 1 banana",
+    "reference_date": "2026-11-12",
+    "answers": {
+      "date": "today"
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "banana",
+          "quantity": 1,
+          "unit": "count"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-12",
+      "end_date": null
+    }
+  },
+  {
+    "id": "fraction",
+    "text": "I ate 1.5 cups of rice yesterday",
+    "reference_date": "2026-11-12",
+    "answers": {},
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "rice",
+          "quantity": 1.5,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-11",
+      "end_date": null
+    }
+  },
+  {
+    "id": "workout",
+    "text": "I ran for 30 minutes today",
+    "reference_date": "2026-11-12",
+    "answers": {},
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "running",
+          "duration_minutes": 30
+        }
+      ],
+      "date": "2026-11-12",
+      "end_date": null
+    }
+  },
+  {
+    "id": "workout_missing",
+    "text": "I walked yesterday",
+    "reference_date": "2026-11-12",
+    "answers": {
+      "workouts.0.duration_minutes": "25 minutes"
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "walking",
+          "duration_minutes": 25
+        }
+      ],
+      "date": "2026-11-11",
+      "end_date": null
+    }
+  },
+  {
+    "id": "history",
+    "text": "Show nutrition yesterday",
+    "reference_date": "2026-11-12",
+    "answers": {},
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-11",
+      "end_date": "2026-11-11"
+    }
+  },
+  {
+    "id": "range",
+    "text": "Show calories from 2026-11-01 to 2026-11-12",
+    "reference_date": "2026-11-12",
+    "answers": {},
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-01",
+      "end_date": "2026-11-12"
+    }
+  },
+  {
+    "id": "negated",
+    "text": "I didn't eat eggs",
+    "reference_date": "2026-11-12",
+    "answers": {},
+    "expected": {
+      "intent": "unknown",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    }
+  },
+  {
+    "id": "planned",
+    "text": "I will eat eggs",
+    "reference_date": "2026-11-12",
+    "answers": {},
+    "expected": {
+      "intent": "unknown",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    }
+  },
+  {
+    "id": "unseen_food",
+    "text": "I ate 150 grams of salmon today",
+    "reference_date": "2026-11-12",
+    "answers": {},
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "salmon",
+          "quantity": 150,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-12",
+      "end_date": null
+    }
+  },
+  {
+    "id": "word_quantity",
+    "text": "I ate two eggs today",
+    "reference_date": "2026-11-12",
+    "answers": {
+      "foods.0.quantity": "2"
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "eggs",
+          "quantity": 2,
+          "unit": "count"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-12",
+      "end_date": null
+    }
+  }
+]
