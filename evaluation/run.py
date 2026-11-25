@@ -1,4 +1,4 @@
-"""Paired 2x2 smoke benchmark. No nutrition calls and no records saved."""
+"""Paired 2x2 extraction benchmark. No nutrition calls and no records saved."""
 import argparse
 import hashlib
 import json
@@ -40,8 +40,9 @@ def run_case(case,mode,clarify):
     return {'id':case['id'],'mode':mode,'clarification':clarify,'valid_output':error is None and draft is not None,'intent_correct':predicted.get('intent')==expected['intent'],'exact_match':predicted==expected,'slot_correct':sum(actual.get(k,object())==v for k,v in gold.items()),'slot_count':len(gold),'extra_slots':len(set(actual)-set(gold)),'complete':bool(draft and not error and not missing_slots(draft)),'turns':turns,'seconds':round(time.perf_counter()-start,4),'error':error,'prediction':predicted}
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--modes',nargs='+',choices=['baseline','llm'],default=['baseline']);parser.add_argument('--output',default='results/run.json');args=parser.parse_args()
-    data_path=Path(__file__).with_name('smoke_cases.json');cases=json.loads(data_path.read_text());rows=[]
+    parser=argparse.ArgumentParser();parser.add_argument('--modes',nargs='+',choices=['baseline','llm'],default=['baseline']);parser.add_argument('--output',default='results/run.json');parser.add_argument('--dataset',type=Path,default=Path(__file__).with_name('smoke_cases.json'));args=parser.parse_args()
+    data_path=args.dataset;cases=json.loads(data_path.read_text());rows=[]
+    if not cases: parser.error('Dataset must contain at least one case.')
     for mode in args.modes:
         for clarify in [False,True]:
             for case in cases: rows.append(run_case(case,mode,clarify))
@@ -50,6 +51,6 @@ def main():
         for clarify in [False,True]:
             group=[r for r in rows if r['mode']==mode and r['clarification']==clarify]
             summaries.append({'mode':mode,'clarification':clarify,'n':len(group),**{metric:round(sum(r[metric] for r in group)/len(group),4) for metric in ['valid_output','intent_correct','exact_match','complete','turns','seconds']},'slot_accuracy':round(sum(r['slot_correct'] for r in group)/sum(r['slot_count'] for r in group),4)})
-    report={'created_utc':datetime.now(timezone.utc).isoformat(),'dataset_sha256':hashlib.sha256(data_path.read_bytes()).hexdigest(),'prompt_version':PROMPT_VERSION,'prompt_sha256':hashlib.sha256(PROMPT.encode()).hexdigest(),'provider':'gemini','model':gemini_model(),'python':platform.python_version(),'note':'Synthetic development smoke set, not a held-out final evaluation. Completeness is not correctness. Latency is whole-dialogue wall time. No paid calls in baseline-only mode.','summary':summaries,'cases':rows}
+    report={'created_utc':datetime.now(timezone.utc).isoformat(),'dataset_sha256':hashlib.sha256(data_path.read_bytes()).hexdigest(),'prompt_version':PROMPT_VERSION,'prompt_sha256':hashlib.sha256(PROMPT.encode()).hexdigest(),'provider':'gemini','model':gemini_model(),'python':platform.python_version(),'dataset_file':data_path.name,'review_status':sorted({c.get('review_status','development_smoke') for c in cases}),'note':'Synthetic extraction evaluation. Do not describe unreviewed candidate cases as a frozen held-out benchmark. Completeness is not correctness. Exact match uses the final target in both clarification conditions. Latency is extraction/dialogue processing time, not input-to-saved-record time. No nutrition calls or record saves.','summary':summaries,'cases':rows}
     path=Path(args.output);path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(report,indent=2));print(json.dumps(summaries,indent=2))
 if __name__=='__main__': main()

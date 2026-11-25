@@ -1,0 +1,2496 @@
+[
+  {
+    "id": "complete_meal_09",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_09",
+    "reference_date": "2026-11-25",
+    "text": "For lunch today, I finished 240 grams of chicken fried rice.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "chicken fried rice",
+          "quantity": 240,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "chicken fried rice",
+          "quantity": 240,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_10",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_10",
+    "reference_date": "2026-11-25",
+    "text": "My dinner yesterday was 175 grams of grilled tofu.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "grilled tofu",
+          "quantity": 175,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "grilled tofu",
+          "quantity": 175,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_11",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_11",
+    "reference_date": "2026-11-25",
+    "text": "This morning I ate 0.75 cups of oatmeal.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "oatmeal",
+          "quantity": 0.75,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "oatmeal",
+          "quantity": 0.75,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_12",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_12",
+    "reference_date": "2026-11-25",
+    "text": "On 2026-11-18, I ate 90 grams of steamed broccoli.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "steamed broccoli",
+          "quantity": 90,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-18",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "steamed broccoli",
+          "quantity": 90,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-18",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_13",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "test_drink_volume",
+    "reference_date": "2026-11-25",
+    "text": "Today I had 200 milliliters of orange juice.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "orange juice",
+          "quantity": 200,
+          "unit": "milliliters"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "orange juice",
+          "quantity": 200,
+          "unit": "milliliters"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_14",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "test_drink_volume",
+    "reference_date": "2026-11-25",
+    "text": "Yesterday I drank 250 ml of milk.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "milk",
+          "quantity": 250,
+          "unit": "milliliters"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "milk",
+          "quantity": 250,
+          "unit": "milliliters"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_15",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_15",
+    "reference_date": "2026-11-25",
+    "text": "For breakfast today: 160 grams of Greek yogurt and 40 grams of blueberries.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "Greek yogurt",
+          "quantity": 160,
+          "unit": "grams"
+        },
+        {
+          "name": "blueberries",
+          "quantity": 40,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "Greek yogurt",
+          "quantity": 160,
+          "unit": "grams"
+        },
+        {
+          "name": "blueberries",
+          "quantity": 40,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_16",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_16",
+    "reference_date": "2026-11-25",
+    "text": "I finished 1 cup of lentil soup at lunch today.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "lentil soup",
+          "quantity": 1,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "lentil soup",
+          "quantity": 1,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_17",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_17",
+    "reference_date": "2026-11-25",
+    "text": "I ate 28 grams of almonds two days ago.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "almonds",
+          "quantity": 28,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-23",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "almonds",
+          "quantity": 28,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-23",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_18",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "test_fraction_meals",
+    "reference_date": "2026-11-25",
+    "text": "Today I ate half a cup of chickpeas.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "chickpeas",
+          "quantity": 0.5,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "chickpeas",
+          "quantity": 0.5,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_19",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "test_fraction_meals",
+    "reference_date": "2026-11-25",
+    "text": "Yesterday I ate a quarter cup of raisins.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "raisins",
+          "quantity": 0.25,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "raisins",
+          "quantity": 0.25,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_20",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_20",
+    "reference_date": "2026-11-25",
+    "text": "I ate 6 ounces of baked cod today.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "baked cod",
+          "quantity": 6,
+          "unit": "ounces"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "baked cod",
+          "quantity": 6,
+          "unit": "ounces"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_21",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_21",
+    "reference_date": "2026-11-25",
+    "text": "On November 22, 2026, I ate 1 pear and 2 kiwis.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "pear",
+          "quantity": 1,
+          "unit": "count"
+        },
+        {
+          "name": "kiwi",
+          "quantity": 2,
+          "unit": "count"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-22",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "pear",
+          "quantity": 1,
+          "unit": "count"
+        },
+        {
+          "name": "kiwi",
+          "quantity": 2,
+          "unit": "count"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-22",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_22",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_22",
+    "reference_date": "2026-11-25",
+    "text": "I ate 100 grams of pasta and 60 grams of tomato sauce yesterday.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "pasta",
+          "quantity": 100,
+          "unit": "grams"
+        },
+        {
+          "name": "tomato sauce",
+          "quantity": 60,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "pasta",
+          "quantity": 100,
+          "unit": "grams"
+        },
+        {
+          "name": "tomato sauce",
+          "quantity": 60,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_23",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_23",
+    "reference_date": "2026-11-25",
+    "text": "Today I ate 1 tablespoon of peanut butter.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "peanut butter",
+          "quantity": 1,
+          "unit": "tablespoons"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "peanut butter",
+          "quantity": 1,
+          "unit": "tablespoons"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_24",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_24",
+    "reference_date": "2026-11-25",
+    "text": "I ate 2 teaspoons of honey today.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "honey",
+          "quantity": 2,
+          "unit": "teaspoons"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "honey",
+          "quantity": 2,
+          "unit": "teaspoons"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "complete_meal_25",
+    "category": "complete_meal",
+    "split": "test",
+    "family_id": "complete_meal_25",
+    "reference_date": "2026-11-25",
+    "text": "I had 1 small bowl of vegetable curry for dinner yesterday.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "vegetable curry",
+          "quantity": 1,
+          "unit": "small bowl"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "vegetable curry",
+          "quantity": 1,
+          "unit": "small bowl"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Preserve stated preparation and household unit; do not infer ingredients or gram equivalents.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_08",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_08",
+    "reference_date": "2026-11-25",
+    "text": "Lunch today was chicken fried rice.",
+    "answers": {
+      "foods.0.quantity": "220 grams",
+      "foods.0.unit": "grams"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "chicken fried rice",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "chicken fried rice",
+          "quantity": 220,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_09",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_09",
+    "reference_date": "2026-11-25",
+    "text": "I had Greek yogurt for breakfast.",
+    "answers": {
+      "foods.0.quantity": "170 grams",
+      "foods.0.unit": "grams",
+      "date": "yesterday"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "Greek yogurt",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "Greek yogurt",
+          "quantity": 170,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_10",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_10",
+    "reference_date": "2026-11-25",
+    "text": "I finished 2 bowls of vegetable soup.",
+    "answers": {
+      "date": "2026-11-22"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "vegetable soup",
+          "quantity": 2,
+          "unit": "bowls"
+        }
+      ],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "vegetable soup",
+          "quantity": 2,
+          "unit": "bowls"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-22",
+      "end_date": null
+    },
+    "label_note": "Bowls are a stated unit; physical gram conversion is a later nutrition task.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_11",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_11",
+    "reference_date": "2026-11-25",
+    "text": "I drank milk today.",
+    "answers": {
+      "foods.0.quantity": "200 milliliters",
+      "foods.0.unit": "milliliters"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "milk",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "milk",
+          "quantity": 200,
+          "unit": "milliliters"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_12",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "test_missing_unit",
+    "reference_date": "2026-11-25",
+    "text": "I ate 80 of almonds yesterday.",
+    "answers": {
+      "foods.0.unit": "grams"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "almonds",
+          "quantity": 80,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "almonds",
+          "quantity": 80,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_13",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_13",
+    "reference_date": "2026-11-25",
+    "text": "For dinner today I ate tofu and 100 grams of spinach.",
+    "answers": {
+      "foods.0.quantity": "160 grams",
+      "foods.0.unit": "grams"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "tofu",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "name": "spinach",
+          "quantity": 100,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "tofu",
+          "quantity": 160,
+          "unit": "grams"
+        },
+        {
+          "name": "spinach",
+          "quantity": 100,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_14",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_14",
+    "reference_date": "2026-11-25",
+    "text": "Today I ate 1 pear and some grapes.",
+    "answers": {
+      "foods.1.quantity": "75 grams",
+      "foods.1.unit": "grams"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "pear",
+          "quantity": 1,
+          "unit": "count"
+        },
+        {
+          "name": "grapes",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "pear",
+          "quantity": 1,
+          "unit": "count"
+        },
+        {
+          "name": "grapes",
+          "quantity": 75,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Some is not a numeric portion; do not default grapes to a serving.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_15",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_15",
+    "reference_date": "2026-11-25",
+    "text": "Yesterday I ate bowls of lentil stew.",
+    "answers": {
+      "foods.0.quantity": "2 bowls"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "lentil stew",
+          "quantity": null,
+          "unit": "bowls"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "lentil stew",
+          "quantity": 2,
+          "unit": "bowls"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Bowls specifies the unit, but not how many.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_16",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_16",
+    "reference_date": "2026-11-25",
+    "text": "I had oatmeal.",
+    "answers": {
+      "foods.0.quantity": "half a cup",
+      "foods.0.unit": "cups",
+      "date": "today"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "oatmeal",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "oatmeal",
+          "quantity": 0.5,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_17",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "test_missing_unit",
+    "reference_date": "2026-11-25",
+    "text": "I ate 3 slices of pizza.",
+    "answers": {
+      "date": "2026-11-19"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "pizza",
+          "quantity": 3,
+          "unit": "slices"
+        }
+      ],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "pizza",
+          "quantity": 3,
+          "unit": "slices"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-19",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_18",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_18",
+    "reference_date": "2026-11-25",
+    "text": "I finished 1.5 of pasta today.",
+    "answers": {
+      "foods.0.unit": "cups"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "pasta",
+          "quantity": 1.5,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "pasta",
+          "quantity": 1.5,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_19",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_19",
+    "reference_date": "2026-11-25",
+    "text": "Today I had soup, but I did not measure the amount.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "soup",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "soup",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Unanswerable quantity: keep unknown and incomplete; no simulated answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_20",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_20",
+    "reference_date": "2026-11-25",
+    "text": "I ate 30 grams of cheese and crackers yesterday.",
+    "answers": {
+      "foods.1.quantity": "20 grams",
+      "foods.1.unit": "grams"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "cheese",
+          "quantity": 30,
+          "unit": "grams"
+        },
+        {
+          "name": "crackers",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "cheese",
+          "quantity": 30,
+          "unit": "grams"
+        },
+        {
+          "name": "crackers",
+          "quantity": 20,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "30 grams modifies cheese only; crackers need their own amount.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_21",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_21",
+    "reference_date": "2026-11-25",
+    "text": "I drank orange juice and ate a muffin today.",
+    "answers": {
+      "foods.0.quantity": "180 milliliters",
+      "foods.0.unit": "milliliters"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "orange juice",
+          "quantity": null,
+          "unit": null
+        },
+        {
+          "name": "muffin",
+          "quantity": 1,
+          "unit": "count"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "orange juice",
+          "quantity": 180,
+          "unit": "milliliters"
+        },
+        {
+          "name": "muffin",
+          "quantity": 1,
+          "unit": "count"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_22",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_22",
+    "reference_date": "2026-11-25",
+    "text": "I ate a few strawberries yesterday.",
+    "answers": {
+      "foods.0.quantity": "60 grams",
+      "foods.0.unit": "grams"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "strawberries",
+          "quantity": null,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "strawberries",
+          "quantity": 60,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "A few has no exact numerical quantity; do not invent a count.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_23",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_23",
+    "reference_date": "2026-11-25",
+    "text": "I ate 2 tablespoons of hummus, but I cannot remember the date.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "hummus",
+          "quantity": 2,
+          "unit": "tablespoons"
+        }
+      ],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "hummus",
+          "quantity": 2,
+          "unit": "tablespoons"
+        }
+      ],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "label_note": "Unanswerable date: do not default to reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_24",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_24",
+    "reference_date": "2026-11-25",
+    "text": "I ate 120 grams of beans and 1 cup of quinoa.",
+    "answers": {
+      "date": "two days ago"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "beans",
+          "quantity": 120,
+          "unit": "grams"
+        },
+        {
+          "name": "quinoa",
+          "quantity": 1,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "beans",
+          "quantity": 120,
+          "unit": "grams"
+        },
+        {
+          "name": "quinoa",
+          "quantity": 1,
+          "unit": "cups"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-23",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "missing_meal_25",
+    "category": "missing_meal",
+    "split": "test",
+    "family_id": "missing_meal_25",
+    "reference_date": "2026-11-25",
+    "text": "I had 250 of vegetable curry.",
+    "answers": {
+      "foods.0.unit": "grams",
+      "date": "yesterday"
+    },
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "vegetable curry",
+          "quantity": 250,
+          "unit": null
+        }
+      ],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "vegetable curry",
+          "quantity": 250,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Extract only explicitly stated information; normalize units using the annotation guide.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_07",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_07",
+    "reference_date": "2026-11-25",
+    "text": "I swam for half an hour this morning.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "swimming",
+          "duration_minutes": 30
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "swimming",
+          "duration_minutes": 30
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_08",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_08",
+    "reference_date": "2026-11-25",
+    "text": "Yesterday I did yoga for 40 minutes.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "yoga",
+          "duration_minutes": 40
+        }
+      ],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "yoga",
+          "duration_minutes": 40
+        }
+      ],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_09",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_09",
+    "reference_date": "2026-11-25",
+    "text": "I lifted weights for 1 hour today.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "weight training",
+          "duration_minutes": 60
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "weight training",
+          "duration_minutes": 60
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_10",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_10",
+    "reference_date": "2026-11-25",
+    "text": "I hiked for 90 minutes two days ago.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "hiking",
+          "duration_minutes": 90
+        }
+      ],
+      "date": "2026-11-23",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "hiking",
+          "duration_minutes": 90
+        }
+      ],
+      "date": "2026-11-23",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_11",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_11",
+    "reference_date": "2026-11-25",
+    "text": "On 2026-11-17 I rowed for 22 minutes.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "rowing",
+          "duration_minutes": 22
+        }
+      ],
+      "date": "2026-11-17",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "rowing",
+          "duration_minutes": 22
+        }
+      ],
+      "date": "2026-11-17",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_12",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_12",
+    "reference_date": "2026-11-25",
+    "text": "Today I danced for 12.5 minutes.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "dancing",
+          "duration_minutes": 12.5
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "dancing",
+          "duration_minutes": 12.5
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_13",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_13",
+    "reference_date": "2026-11-25",
+    "text": "I did Pilates yesterday.",
+    "answers": {
+      "workouts.0.duration_minutes": "50 minutes"
+    },
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "Pilates",
+          "duration_minutes": null
+        }
+      ],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "Pilates",
+          "duration_minutes": 50
+        }
+      ],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_14",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_14",
+    "reference_date": "2026-11-25",
+    "text": "I went swimming for 35 minutes.",
+    "answers": {
+      "date": "2026-11-21"
+    },
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "swimming",
+          "duration_minutes": 35
+        }
+      ],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "swimming",
+          "duration_minutes": 35
+        }
+      ],
+      "date": "2026-11-21",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_15",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_15",
+    "reference_date": "2026-11-25",
+    "text": "I finished a strength training session.",
+    "answers": {
+      "workouts.0.duration_minutes": "45 minutes",
+      "date": "today"
+    },
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "strength training",
+          "duration_minutes": null
+        }
+      ],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "strength training",
+          "duration_minutes": 45
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_16",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_16",
+    "reference_date": "2026-11-25",
+    "text": "I played basketball today.",
+    "answers": {
+      "workouts.0.duration_minutes": "one hour"
+    },
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "basketball",
+          "duration_minutes": null
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "basketball",
+          "duration_minutes": 60
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_17",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_17",
+    "reference_date": "2026-11-25",
+    "text": "Yesterday I jogged for 1 hour and 15 minutes.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "jogging",
+          "duration_minutes": 75
+        }
+      ],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "jogging",
+          "duration_minutes": 75
+        }
+      ],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_18",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_18",
+    "reference_date": "2026-11-25",
+    "text": "I stretched for 600 seconds today.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "stretching",
+          "duration_minutes": 10
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "stretching",
+          "duration_minutes": 10
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_19",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_19",
+    "reference_date": "2026-11-25",
+    "text": "I cycled 10 kilometers today.",
+    "answers": {
+      "workouts.0.duration_minutes": "32 minutes"
+    },
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "cycling",
+          "duration_minutes": null
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "cycling",
+          "duration_minutes": 32
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "workout_20",
+    "category": "workout",
+    "split": "test",
+    "family_id": "workout_20",
+    "reference_date": "2026-11-25",
+    "text": "I exercised on the elliptical yesterday, but I do not know for how long.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "elliptical",
+          "duration_minutes": null
+        }
+      ],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "elliptical",
+          "duration_minutes": null
+        }
+      ],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Normalize explicit durations to minutes. Distance does not imply duration. Preserve unknowns when no answer is available.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_05",
+    "category": "history",
+    "split": "test",
+    "family_id": "history_05",
+    "reference_date": "2026-11-25",
+    "text": "How much protein did I log on November 18, 2026?",
+    "answers": {},
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-18",
+      "end_date": "2026-11-18"
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-18",
+      "end_date": "2026-11-18"
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_06",
+    "category": "history",
+    "split": "test",
+    "family_id": "history_06",
+    "reference_date": "2026-11-25",
+    "text": "Give me my nutrition totals for the last 7 days.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-19",
+      "end_date": "2026-11-25"
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-19",
+      "end_date": "2026-11-25"
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_07",
+    "category": "history",
+    "split": "test",
+    "family_id": "history_07",
+    "reference_date": "2026-11-25",
+    "text": "Show my logged calories this week.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-23",
+      "end_date": "2026-11-25"
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-23",
+      "end_date": "2026-11-25"
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_08",
+    "category": "history",
+    "split": "test",
+    "family_id": "history_08",
+    "reference_date": "2026-11-25",
+    "text": "What were my nutrition totals last week?",
+    "answers": {},
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-16",
+      "end_date": "2026-11-22"
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-16",
+      "end_date": "2026-11-22"
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_09",
+    "category": "history",
+    "split": "test",
+    "family_id": "history_09",
+    "reference_date": "2026-11-25",
+    "text": "Show my meal history for this month so far.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-01",
+      "end_date": "2026-11-25"
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-01",
+      "end_date": "2026-11-25"
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_10",
+    "category": "history",
+    "split": "test",
+    "family_id": "history_10",
+    "reference_date": "2026-11-25",
+    "text": "How much fat did I log two days ago?",
+    "answers": {},
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-23",
+      "end_date": "2026-11-23"
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-23",
+      "end_date": "2026-11-23"
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_11",
+    "category": "history",
+    "split": "test",
+    "family_id": "history_11",
+    "reference_date": "2026-11-25",
+    "text": "List the workouts I logged on 2026-11-17.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-17",
+      "end_date": "2026-11-17"
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-17",
+      "end_date": "2026-11-17"
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_12",
+    "category": "history",
+    "split": "test",
+    "family_id": "history_12",
+    "reference_date": "2026-11-25",
+    "text": "Summarize my logged carbs from November 5 through November 9, 2026.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-05",
+      "end_date": "2026-11-09"
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-05",
+      "end_date": "2026-11-09"
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_13",
+    "category": "history",
+    "split": "test",
+    "family_id": "history_13",
+    "reference_date": "2026-11-25",
+    "text": "Show my meal records for the previous calendar month.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-10-01",
+      "end_date": "2026-10-31"
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-10-01",
+      "end_date": "2026-10-31"
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_14",
+    "category": "history",
+    "split": "test",
+    "family_id": "test_missing_history_range",
+    "reference_date": "2026-11-25",
+    "text": "Show my nutrition totals for a date range; I have not told you the dates yet.",
+    "answers": {
+      "date": "2026-11-10",
+      "end_date": "2026-11-15"
+    },
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-10",
+      "end_date": "2026-11-15"
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "history_15",
+    "category": "history",
+    "split": "test",
+    "family_id": "test_missing_history_range",
+    "reference_date": "2026-11-25",
+    "text": "Show my calorie history, but I cannot remember which dates I mean.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "history",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "label_note": "History extracts dates and intent only, not requested nutrient filters. Weeks start Monday; ranges are inclusive; current week/month ends at reference_date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "challenge_06",
+    "category": "challenge",
+    "split": "test",
+    "family_id": "challenge_06",
+    "reference_date": "2026-11-25",
+    "text": "I had 300 grams of vegetable curry today. Correction: I ate only half of that amount.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "vegetable curry",
+          "quantity": 150,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "vegetable curry",
+          "quantity": 150,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Explicit relative correction: 300 × 0.5 = 150 grams. No nutrient arithmetic is tested.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "challenge_07",
+    "category": "challenge",
+    "split": "test",
+    "family_id": "challenge_07",
+    "reference_date": "2026-11-25",
+    "text": "I swam for 50 minutes today; sorry, it was 35 minutes.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "swimming",
+          "duration_minutes": 35
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "workout_log",
+      "foods": [],
+      "workouts": [
+        {
+          "name": "swimming",
+          "duration_minutes": 35
+        }
+      ],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Use the corrected duration, retaining the date.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "challenge_08",
+    "category": "challenge",
+    "split": "test",
+    "family_id": "challenge_08",
+    "reference_date": "2026-11-25",
+    "text": "I ate 140 grams of tofu yesterday. Correction: it was today.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "tofu",
+          "quantity": 140,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "tofu",
+          "quantity": 140,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Explicit date correction retains the food amount.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "challenge_09",
+    "category": "challenge",
+    "split": "test",
+    "family_id": "challenge_09",
+    "reference_date": "2026-11-25",
+    "text": "I was going to eat a muffin but never did.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "unknown",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "unknown",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "label_note": "Unrealized intention must not become a meal log.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "challenge_10",
+    "category": "challenge",
+    "split": "test",
+    "family_id": "challenge_10",
+    "reference_date": "2026-11-25",
+    "text": "I did not go swimming.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "unknown",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "unknown",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "label_note": "Negated workout must not become a workout log.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "challenge_11",
+    "category": "challenge",
+    "split": "test",
+    "family_id": "challenge_11",
+    "reference_date": "2026-11-25",
+    "text": "Tomorrow I will do yoga for 30 minutes.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "unknown",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "unknown",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "label_note": "Future workout planning is outside completed-log intent; keep all slots empty.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "challenge_12",
+    "category": "challenge",
+    "split": "test",
+    "family_id": "challenge_12",
+    "reference_date": "2026-11-25",
+    "text": "What is the protein content of tofu?",
+    "answers": {},
+    "initial_expected": {
+      "intent": "unknown",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "expected": {
+      "intent": "unknown",
+      "foods": [],
+      "workouts": [],
+      "date": null,
+      "end_date": null
+    },
+    "label_note": "Generic food-information question is not personal history or meal logging.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "challenge_13",
+    "category": "challenge",
+    "split": "test",
+    "family_id": "challenge_13",
+    "reference_date": "2026-11-25",
+    "text": "I ate something today, but I cannot remember what it was.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Completed meal intent and date are known; foods remain empty and clarification cannot be answered.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "challenge_14",
+    "category": "challenge",
+    "split": "test",
+    "family_id": "challenge_14",
+    "reference_date": "2026-11-25",
+    "text": "I ate 2 portions of it yesterday, but I have not named the food.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [],
+      "workouts": [],
+      "date": "2026-11-24",
+      "end_date": null
+    },
+    "label_note": "Do not invent a food called it. Food list is empty because schema has no unnamed-food entity.",
+    "review_status": "pending_human_review"
+  },
+  {
+    "id": "challenge_15",
+    "category": "challenge",
+    "split": "test",
+    "family_id": "challenge_15",
+    "reference_date": "2026-11-25",
+    "text": "I ate 100 grams of chickpeas today, not 200 grams.",
+    "answers": {},
+    "initial_expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "chickpeas",
+          "quantity": 100,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "expected": {
+      "intent": "meal_log",
+      "foods": [
+        {
+          "name": "chickpeas",
+          "quantity": 100,
+          "unit": "grams"
+        }
+      ],
+      "workouts": [],
+      "date": "2026-11-25",
+      "end_date": null
+    },
+    "label_note": "Local negation rejects 200 grams; it does not negate the completed meal.",
+    "review_status": "pending_human_review"
+  }
+]

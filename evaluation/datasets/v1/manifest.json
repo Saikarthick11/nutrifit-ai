@@ -1,0 +1,24 @@
+{
+  "version": "1.0-draft",
+  "created_date": "2026-11-25",
+  "status": "synthetic_ai_authored_pending_human_review",
+  "reference_date": "2026-11-25",
+  "counts": {
+    "complete_meal": 25,
+    "missing_meal": 25,
+    "workout": 20,
+    "history": 15,
+    "challenge": 15
+  },
+  "splits": {
+    "development": 30,
+    "test": 70
+  },
+  "test_executed": false,
+  "test_frozen": false,
+  "scope": "Structured extraction and scripted clarification only; no full logging time, nutrition retrieval, persistence, or OCR benchmark.",
+  "files": {
+    "development.json": "38dae147c02763a887880409da16f18166d037afb85319a15a4fe37e271dabff",
+    "test_candidate.json": "bc58d3767a1e9d80169a77843371a57a145428a2d270344a8bfc5225ecc70a56"
+  }
+}
